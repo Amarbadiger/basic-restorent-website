@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  box-shadow: 5px 5px 5px rgb(222, 215, 215);
+}
+.navigation {
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftimg {
+  margin: 80px;
+}
+.search {
+  margin: 80px;
+}
+.search input {
+  background-color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+}
+.maincantainer {
+  margin: 50px 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+.maincontent {
+  display: flex;
+  flex-direction: column;
+}
+.tag {
+  background-color: rgb(85, 179, 85);
+  align-self: flex-start;
+  padding: 5px;
+  color: white;
+}
+.maincontent h1 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.boxcontent {
+  display: flex;
+  justify-content: center;
+  margin: 100px 200px;
+}
+.box1 {
+  display: flex;
+  padding: 25px;
+}
+.box2 {
+  display: flex;
+  padding: 25px;
+}
+.box3 {
+  display: flex;
+  padding: 25px;
+}
+.box1:hover{
+    box-shadow: 5px 5px 5px rgb(206, 201, 201);
+}
+.box2:hover{
+    box-shadow: 5px 5px 5px rgb(206, 201, 201);
+}
+.box3:hover{
+    box-shadow: 5px 5px 5px rgb(206, 201, 201);
+}
+.line hr{
+    margin: 100px;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+.menuhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menuhead div{
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+}
+.menu{
+    font-size: 25px;
+}
+
+.item1{
+    grid-area: i1;
+    
+}
+.item2{
+    grid-area: i2;
+    
+}
+.item3{
+    grid-area: i3;
+    
+}
+.item4{
+    grid-area: i4;
+    
+}
+.item5{
+    grid-area: i5;
+    
+}
+.item6{
+    grid-area: i6;
+    
+}
+.item7{
+    grid-area: i7;
+    box-shadow: 10px 10px 10px rgb(206, 201, 201);
+    
+}
+.grid{
+    width: 1200px;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    grid-template-areas:"i1 i1 i2 i3"
+                        "i1 i1 i2 i7"
+                        "i4 i5 i6 i7";
+    margin-left: 181px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff0db;
+    margin-top: 50px;
+    height: 200px;
+}
+@media (max-width: 600px) {
+    *{
+        flex-direction: row;
+    }
+  }
